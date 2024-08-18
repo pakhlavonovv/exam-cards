@@ -1,0 +1,74 @@
+.header{
+    .header__wrapper{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        .header__left{
+            img{
+                width: 100%;
+            }
+        }
+        .header__center{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            button{
+                background-color: #E5E5FF;
+                padding: 13px;
+                width: 162px;
+                border: none;
+                border-radius: 8px;
+                font-size: 18px;
+                color: #8962FF;
+                font-weight: 500;
+                cursor: pointer;
+                &:hover{
+                    background-color: #d4d6ff;
+                }
+            }
+            .header__c__inp{
+                display: grid;
+                grid-template-columns: auto auto;
+                justify-content: space-between;
+                padding: 12px;
+                width: 500px;
+                border: 1px solid rgb(159, 159, 159);
+                border-radius: 5px;
+                outline: none;
+                i{
+                    cursor: pointer;
+                }
+            }
+            input{
+               border: none;
+               outline: none;
+               width: 400px;
+               font-size: 16px;
+            }
+        }
+        .header__right{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 20px;
+            .header__right__links{
+                display: grid;
+                grid-template-columns: auto auto;
+                gap: 15px;
+                background-color: transparent;
+                border: none;
+                font-size: 18px;
+                align-items: center;
+                padding: 12px;
+                cursor: pointer;
+                border-radius: 5px;
+                p{
+                    font-size: 18px;
+                }
+                &:hover{
+                    background-color: rgb(196, 196, 196);
+                }
+            }
+        }
+    }
+}

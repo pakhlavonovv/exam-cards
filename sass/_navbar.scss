@@ -1,0 +1,16 @@
+.navbar{
+    margin-top: 30px;
+    .navbar__wrapper{
+        display: flex;
+        gap: 20px;
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            border-bottom: gray;
+            padding-bottom: 5px;
+            &:hover{
+                border-bottom: 1px solid;
+            }
+        }
+    }
+}
