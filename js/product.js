@@ -3,8 +3,8 @@ const productId = params.get('id');
 fetch(`https://fakestoreapi.com/products/${productId}`)
   .then(response => response.json())
   .then(product => {
-    const product_details = document.getElementById('product-details');
-    product_details.innerHTML = `
+    const info_product = document.getElementById('info_product');
+    info_product.innerHTML = `
       <img src="${product.image}" alt="${product.title}">
       <h2>${product.title}</h2>
       <p>${product.description}</p>
